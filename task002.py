@@ -14,7 +14,6 @@ sum = 0
 for i in range(n):
     my_list.append(RI(0,10))
 print(my_list)
-print(math.ceil(len(my_list)/2))
 
 for i in range(math.ceil(len(my_list)/2)):
     end_list.append (my_list[i] * my_list[-i-1])
